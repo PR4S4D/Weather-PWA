@@ -167,6 +167,7 @@ var injectedForecast = {
       }
     };
     request.open('GET', url);
+    request.setRequestHeader('mode', 'no-cors');
     request.send();
   };
 
